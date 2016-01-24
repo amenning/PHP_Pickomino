@@ -89,7 +89,7 @@ class Dice {
 				self::$dicesum += self::$FrozenDiceList[$x]['value'];
 			}
 		}
-		print(self::$dicesum);
+		//print(self::$dicesum);
 	}
 	
 	public static function rollDice(){
